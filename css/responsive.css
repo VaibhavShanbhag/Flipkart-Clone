@@ -1,0 +1,23 @@
+@media screen and (max-width: 1023px) {
+    nav{
+           flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav{
+           flex-direction: column;
+    }
+
+    header{
+        width: 100vh;
+    }
+
+    .container{
+        
+    }
+
+    .slider-img{
+        
+    }
+}
