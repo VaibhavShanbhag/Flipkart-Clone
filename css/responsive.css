@@ -1,23 +1,24 @@
-@media screen and (max-width: 1023px) {
+@media screen and (max-width:1065px) and (min-width:300px) {
     nav{
-           flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    nav{
-           flex-direction: column;
+        flex-direction: column;
     }
 
-    header{
-        width: 100vh;
+    nav .logo{
+        justify-content: center; 
+        margin-top: 10px;  
     }
 
-    .container{
-        
+    nav ul{
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
-    .slider-img{
-        
+    nav .searchbar{
+        margin: 0 auto;
     }
+
+    .searchbar .search-icon{
+        align-content: flex-end;
+    }
+
 }
