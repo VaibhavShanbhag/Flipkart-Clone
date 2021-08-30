@@ -158,6 +158,31 @@ main .offer-item:hover{
     cursor: pointer;
     color: #2874f0;
 }
+
+main .top-deals{
+    background-color: white;
+    margin: 10px 10px;
+}
+
+main .top-deals .deals-heading-view{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .top-deals .deals-heading-view button{
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+}
+
+main .top-deals .deals-heading-view{
+    border-bottom: 1px solid grey;
+    padding: 10px 10px;
+}
+
+
 footer{
     height: 9vh;
     background-color: black;
