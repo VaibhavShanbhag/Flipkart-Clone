@@ -45,6 +45,7 @@ ul li a:hover{
 
 nav .searchbar{
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     width: 30vw;
@@ -66,9 +67,7 @@ nav .searchbar input[type=text]{
 }
 
 .login{
-    display: flex;
-    align-items: center;
-    margin: 0 24px 0 20px;
+    margin: 15px 24px 0 20px;
 }
 
 nav .login .login-btn{
@@ -85,9 +84,6 @@ nav .login .login-btn{
 }
 
 .cart{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
 }
 

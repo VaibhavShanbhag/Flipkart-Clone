@@ -1,4 +1,4 @@
-@media screen and (max-width:1065px) and (min-width:300px) {
+@media screen and (max-width:1065px){
     nav{
         flex-direction: column;
     }
@@ -17,8 +17,12 @@
         margin: 0 auto;
     }
 
-    .searchbar .search-icon{
-        align-content: flex-end;
+    nav .login{
+        margin: 15px auto;
+    }
+
+    nav .cart{
+        margin: 0px auto;
     }
 
 }
