@@ -142,6 +142,7 @@ main .shop-items{
     display: flex;
     justify-content: space-around;
     background-color: white;
+    border-bottom: 1px solid rgb(211, 211, 211);
 }
 main .offer-item{
     text-align: center;
@@ -162,6 +163,7 @@ main .offer-item:hover{
 main .top-deals{
     background-color: white;
     margin: 10px 10px;
+    border: 1px solid rgb(211, 211, 211);
 }
 
 main .top-deals .deals-heading-view{
@@ -179,8 +181,16 @@ main .top-deals .deals-heading-view button{
 }
 
 main .top-deals .deals-heading-view{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(201, 201, 201);
     padding: 10px 10px;
+}
+
+main .top-deals-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px 0px;
+    cursor: pointer;
 }
 
 
