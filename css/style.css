@@ -97,8 +97,7 @@ nav .login .login-btn{
 
 main .container{
     min-height: 83vh;
-    background-color: rgb(238, 233, 233);
-}
+    background-color: rgb(238, 233, 233);}
 
  .slider-img{
     height: 34vh;
@@ -189,8 +188,35 @@ main .top-deals-items{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
     margin: 15px 0px;
     cursor: pointer;
+}
+
+main .items img{
+    margin-bottom: 8px;
+}
+
+main .items p{
+    line-height: 25px;
+    font-size: 14.5px;
+}
+
+main .items .para-item-bold{
+    font-weight: bold;
+}
+
+main .items .para-item-font-color{
+    color: green;
+    font-weight: lighter;
+}
+
+main .items .font-color-grey{
+    color: grey;
+}
+
+main .items img:hover{
+    transform: scale(1.1);
 }
 
 
