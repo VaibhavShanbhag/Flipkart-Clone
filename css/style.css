@@ -106,6 +106,7 @@ main .container{
     background-image: url(../img/homepage.jpg);
     background-size: contain;
     overflow: hidden;
+    cursor: pointer;
     background-repeat: no-repeat;
     animation: slidebar 15s forwards infinite;
 }
@@ -216,7 +217,23 @@ main .items .font-color-grey{
 }
 
 main .items img:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
+}
+
+main .deals-heading-view .health-title{
+    position: absolute;
+    left: 22px;
+    margin: 26px 0px;
+    color: grey;
+    font-size: 13px;
+}
+
+main .deals-heading-view .health-title-2{
+    position: absolute;
+    left: 24px;
+    margin: 27px 0px;
+    color: grey;
+    font-size: 13px;
 }
 
 
@@ -225,4 +242,7 @@ footer{
     background-color: black;
     color: white;
     font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
